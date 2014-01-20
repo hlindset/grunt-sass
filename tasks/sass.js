@@ -38,7 +38,8 @@ module.exports = function (grunt) {
 				includePaths: options.includePaths,
 				outputStyle: options.outputStyle,
 				sourceComments: options.sourceComments,
-				sourceMap: options.sourceMap
+				sourceMap: options.sourceMap,
+				imagePath: options.imagePath
 			});
 		}, this.async());
 	});

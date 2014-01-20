@@ -75,6 +75,12 @@ Type: `String`
 
 If your `sourceComments` option is set to `map`, `sourceMap` allows setting a new path context for the referenced Sass files. The source map describes a path from your CSS file location, into the the folder where the Sass files are located. In most occasions this will work out-of-the-box but, in some cases, you may need to set a different output.
 
+#### imagePath
+
+Type: `String`
+
+Sets the public image path that will be prepended when using the `image-url()` function.
+
 
 ### Example config
 
